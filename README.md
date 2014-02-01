@@ -22,3 +22,7 @@ Currently only supports getClusterInfo and getPerformanceStats because we needed
         lh.get_cluster_info
         # Get performance Statistics
         lh.get_performance_stats
+
+### Dependencies
+
+* requires crack xml parsing gem
