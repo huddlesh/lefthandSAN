@@ -1,9 +1,9 @@
 lefthandSAN
 ===========
 
-Ruby wrapper for interacting with CLIQ command line interface
+Development Ruby wrapper for interacting with CLIQ command line interface
 
-Currently only supports getClusterInfo and getPerformanceStats because we needed them for our dashboard. We will add more of the cliq's functionality over time.
+Currently only supports getClusterInfo and getPerformanceStats because we needed them for our internal dashboard. We will add more of the cliq's functionality over time.
 
 ### Usage
 
