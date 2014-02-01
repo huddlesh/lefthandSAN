@@ -47,6 +47,19 @@ class LefthandSAN
   end
 
 
+  # get_site_info: This command returns information on sites for multi-site SAN's.
+  #
+  # params:
+  #
+  #   siteName: The name of the site. If this is not specified, all sites in this
+  #             group are returned.
+  #
+  def get_site_info site = ''
+
+    site.empty? ? cliq_run("getSiteInfo") : cliq_run("getSiteInfo siteName=#{site}")
+
+  end
+
   private
 
   # cliq_run: This command returns a ruby hash when given a valid lefthand api command
